@@ -413,14 +413,12 @@ A list of programming tutorials in which aspiring software developers learn how 
 - [Tutorial: Building a Blog in Rust – Static File Server (YouTube)](https://www.youtube.com/watch?v=9uAy8skUVsc)
 - [Using Rust to Build a Blog Site (static site generator)](https://patshaughnessy.net/2019/9/4/using-rust-to-build-a-blog-site)
 - [Web Apps with Rust: Your Guide to a Sleek, Fast Application](https://bitskingdom.com/blog/build-a-web-app-with-rust/)
-- [Writing a Blog in Rust – Itehax](https://itehax.com/blog/writing-a-blog-in-rust)
 
 ## Scala:
 
 - [How to Build a ZIO Full-Stack Web Application](https://rockthejvm.com/articles/zio-full-stack-webapp)
 - [Real-World Scala: Building a Web Application](https://reintech.io/blog/real-world-scala-building-web-application)
 - [Scala fullstack web application](https://medium.com/%40samuelfm_amanoe/scala-fullstack-web-application-01a565a3c947)
-- [Tutorial: Basic Full Stack App With Scala 3](https://idiomaticsoft.com/post/2023-12-12/fullstack/)
 - [Your first Play Scala application](https://www.playframework.com/modules/scala-0.9.1/hello-world)
 
 ## Swift:
