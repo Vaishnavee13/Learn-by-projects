@@ -24,8 +24,6 @@ jobs:
             --verbose
             --max-redirects 10
             --timeout 20
-            --retry 2
-            --retry-wait-time 2
             README.md
           format: markdown
           output: lychee/out.md
