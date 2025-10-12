@@ -1,0 +1,41 @@
+name: Link Check
+
+on:
+  pull_request:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays at 06:00 UTC
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Check only the public README to avoid private build inputs
+          args: >-
+            --no-progress
+            --verbose
+            --format markdown
+            --output lychee/out.md
+            --max-redirects 10
+            --timeout 20
+            --retry 2
+            --retry-wait-time 2
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload lychee report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: lychee/out.md
