@@ -22,13 +22,13 @@ jobs:
           args: >-
             --no-progress
             --verbose
-            --format markdown
-            --output lychee/out.md
             --max-redirects 10
             --timeout 20
             --retry 2
             --retry-wait-time 2
             README.md
+          format: markdown
+          output: lychee/out.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
