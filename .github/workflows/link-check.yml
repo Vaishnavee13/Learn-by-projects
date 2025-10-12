@@ -24,6 +24,11 @@ jobs:
             --verbose
             --max-redirects 10
             --timeout 20
+            --exclude ^https://betterprogramming\.pub/how-to-write-a-web-app-in-rust-part-1-3047156660a7$
+            --exclude ^https://blog\.gkomninos\.com/crafting-a-web-application-with-golang-a-step-by-step-guide$
+            --exclude ^https://prasadtech\.hashnode\.dev/step-by-step-guide-to-building-an-amazon-clone-with-reactjs$
+            --exclude ^https://www\.apptha\.com/blog/steps-to-build-a-private-one-to-one-chat-app/?$
+            --exclude ^https://www\.reddit\.com/r/gamedev/comments/67frk2/tutorial_on_making_a_complete_game_with_lua_and/?$
             README.md
           format: markdown
           output: lychee/out.md

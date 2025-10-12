@@ -117,7 +117,6 @@ A list of programming tutorials in which aspiring software developers learn how 
 
 ## Elixir:
 
-- [Build a real-time Twitter clone in 15 minutes with LiveView and Phoenix 1.5](https://www.phoenixframework.org/blog/build-a-real-time-twitter-clone-in-15-minutes-with-live-view-and-phoenix-1.5)
 - [Build It With Phoenix (video tutorial series)](https://elixirforum.com/t/build-it-with-phoenix-self-published-video-tutorial/57184)
 - [Build Real-time Chat With Phoenix and LiveView in Fewer Than 50 lines](https://blixtdev.com/real-time-chat-with-phoenix-and-liveview/)
 - [Building a Chat App with LiveView Streams](https://fly.io/phoenix-files/building-a-chat-app-with-liveview-streams/)
